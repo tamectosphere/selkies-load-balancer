@@ -1,5 +1,9 @@
 # Selkies Load Balancer
 
+## Why?
+
+https://medium.com/@TamEctosphere/why-developing-load-balancers-is-key-to-future-proofing-your-tech-skills-443436cdc0f5
+
 ## Overview
 
 This project implements a simple load balancer (`selkies-lb`) and web server (`selkies-server`) using Go. The load balancer distributes incoming HTTP requests across multiple backend servers using a round-robin method. Each backend server can handle requests and report its health status.
