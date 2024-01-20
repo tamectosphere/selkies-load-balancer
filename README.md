@@ -67,7 +67,6 @@ To start the load balancer with a custom health check interval (for example, 5 s
 ./selkies selkies-server -port 8383
 ./selkies selkies-server -port 8484
 ```
-Replace `8282`, `8383`, `8484` with your desired port numbers.
 
 ## Usage
 
