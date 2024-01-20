@@ -42,7 +42,7 @@ func getFlagOptions() (int, int) {
 	var port int
 	var healthCheckInterval int
 	flag.IntVar(&port, "port", 0, "Choose a port: 8282, 8383, 8484")
-	flag.IntVar(&healthCheckInterval, "healt-check-interval", 3, "Input health check interval")
+	flag.IntVar(&healthCheckInterval, "health-check-interval", 3, "Input health check interval")
 	flag.Parse()
 
 	return port, healthCheckInterval
